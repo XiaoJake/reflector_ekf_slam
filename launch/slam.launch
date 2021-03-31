@@ -19,6 +19,6 @@
               --topics $(arg odom) $(arg laser) $(arg tf)" />
 
   <node pkg="rviz" type="rviz" name="rviz" output="screen"
-    args="-d $(find reflector_ekf_slam)/rviz/default.rviz" required="true">
+        args="-d $(find reflector_ekf_slam)/rviz/default.rviz" required="true"/>
 
 </launch>
